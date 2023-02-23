@@ -3,6 +3,7 @@ public class Main {
     {
         kiir(String.format("Az első 10 szám összege: %d", elso10SzamOsszege()));
         kiir(String.format("%d + %d = %d", 3, 4, osszead(3, 4)));
+        kiir(String.format("%d + %d + %d + %d = %d\n", 1, 2, 3, 4, osszead(osszead(1, 2), osszead(3, 4))));
     }
 
     static int elso10SzamOsszege()
